@@ -1,15 +1,15 @@
 :root {
-    --eva_01-color-3: A3DA58;
-    --eva_01-color-1: 615AA8;
-    --eva_00-color-3: b63958;
-    --eva_00-color-1: a5bdd5;
+    --eva_01-color-3: #A3DA58;
+    --eva_01-color-1: #615AA8;
+    --eva_00-color-3: #b63958;
+    --eva_00-color-1: #a5bdd5;
 }
 
 body {
     background-color: var(--bg-primary);
 }
 
-container {
+#container {
     width: calc(723px * 14);
     height: 97vh;
     

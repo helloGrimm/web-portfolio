@@ -1,12 +1,12 @@
 :root {
-    --eva_01-color-1: 615AA8;
-    --eva_01-color-2: 592661;
-    --eva_01-color-3: A3DA58;
-    --eva_01-color-4: F7BA2B;
-    --eva_01-color-5: f7ba2bb0;
+    --eva_01-color-1: #615AA8;
+    --eva_01-color-2: #592661;
+    --eva_01-color-3: #A3DA58;
+    --eva_01-color-4: #F7BA2B;
+    --eva_01-color-5: #f7ba2bb0;
 }
 
-container section table th {
+#container section table th {
     color: var(--eva_01-color-4);
 }
 

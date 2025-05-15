@@ -8,7 +8,7 @@ body {
     background-size: cover;  
 }
 
-container {
+#container {
     width: calc(100% - 5rem);
 
     display: flex;
@@ -70,7 +70,7 @@ p {
     color: var(--text-secondary);
 }
 
-characters {
+#characters {
     width: 90%;
     height: 10vh;
 
@@ -84,7 +84,7 @@ characters {
     background-image: url(../images/tiles_main_page/NGE_tile_1.jpg);
 }
 
-anime_manga {
+#anime_manga {
     width: 90%;
     height: 10vh;
 
@@ -99,7 +99,7 @@ anime_manga {
     filter: opacity(0.9);
 }
 
-music {
+#music {
     width: 90%;
     height: 10vh;
 
@@ -114,7 +114,7 @@ music {
     filter: opacity(0.9);
 }
 
-author {
+#author {
     width: 90%;
     height: 10vh;
 

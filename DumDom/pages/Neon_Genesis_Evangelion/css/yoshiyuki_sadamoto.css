@@ -6,7 +6,7 @@ body {
     background-size: cover;
 }
 
-container {
+#container {
     width: calc(100% - 5rem);
 
     display: flex;
@@ -19,7 +19,7 @@ container {
 }
 
 
-container main {
+#container main {
     width: 45%;
 
     margin-top: 2%;
@@ -32,11 +32,11 @@ container main {
 }
 
 
-container article  {
+#container article  {
     color: var(--text-secondary);
 }
 
-container aside {
+#container aside {
     width: 30%;
 
     margin-top: 2%;
@@ -48,7 +48,7 @@ container aside {
     align-items: center;
 }
 
-container section {
+#container section {
     background-color: var(--bg-third);
     border-radius: 20px;
 
@@ -56,29 +56,29 @@ container section {
     margin-bottom: 2%;
 }
 
-container section table {
+#container section table {
     width: 100%;
 }
 
-container section table th {
+#container section table th {
     color: var(--title-secondary);
 }
 
-container section table td {
+#container section table td {
     color: var(--text-secondary);
 }
 
-table {
+#table {
     text-align: center;
     border-collapse: collapse;
 }
 
-table th, table td {
+#table th, #table td {
     border: 1px solid var(--text-primary);
     border-spacing: 0;
 }
 
-basic_informations {
+#basic_informations {
     text-align: left;
     padding-top: 2rem;
 }
@@ -104,15 +104,15 @@ basic_informations {
     font-size: 16px;
 }
 
-container section img {
+#container section img {
     border-radius: 20px;
 }
 
-container section ul {
+#container section ul {
     list-style: square;
     margin-left: -1rem;
 }
 
-subtitle {
+#subtitle {
     color: var(--text-secondary);
 }

@@ -6,7 +6,7 @@ a {
     text-transform: uppercase;
 }
 
-container {
+#container {
     width: calc(100% - 5rem);
     height: 100vh;
     
@@ -17,7 +17,7 @@ container {
     align-items: center;
 }
 
-box {
+#box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@ box {
     overflow: hidden;
 }
 
-container .card {
+#container .card {
     flex: 1;
     height: 90vh;
     
@@ -33,7 +33,7 @@ container .card {
     transition: all 1s ease-in-out;
 }
 
-container .card .card__head {
+#container .card .card__head {
     color: var(--text-secondary);
     background: var(--bg-third);
     
@@ -52,11 +52,11 @@ container .card .card__head {
     white-space: nowrap;
 }
 
-container .card:hover {
+#container .card:hover {
     flex-grow: 3;
 }
 
-container .card:hover .card__head {
+#container .card:hover .card__head {
     text-align: center;
 
     top: calc(100% - 2em);
@@ -68,7 +68,7 @@ container .card:hover .card__head {
     transform: rotate(0deg);
 }
 
-container .card img {
+#container .card img {
     width: 100%;
     height: 100%;
 
@@ -77,6 +77,6 @@ container .card img {
     transition: all 0.7s ease-in-out;
 }
 
-container .card:not(:nth-child(5)) {
+#container .card:not(:nth-child(5)) {
     margin-right: 1em;
 }

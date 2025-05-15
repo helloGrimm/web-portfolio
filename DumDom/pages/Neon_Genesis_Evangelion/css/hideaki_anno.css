@@ -6,7 +6,7 @@ body {
     background-size: cover;
 }
 
-container {
+#container {
     width: calc(100% - 5rem);
 
     display: flex;
@@ -18,7 +18,7 @@ container {
     margin-right: 0;
 }
 
-container main {
+#container main {
     width: 45%;
 
     margin-top: 2%;
@@ -30,11 +30,11 @@ container main {
     text-align: justify;
 }
 
-container article, aside{
+#container article, aside{
     color: var(--text-secondary);
 }
 
-container aside {
+#container aside {
     width: 30%;
 
     margin-top: 2%;
@@ -46,7 +46,7 @@ container aside {
     align-items: center;
 }
 
-container section {
+#container section {
     background-color: var(--bg-third);
     border-radius: 20px;
 
@@ -75,39 +75,39 @@ container section {
     font-size: 16px;
 }
 
-container section img {
+#container section img {
     border-radius: 20px;
 }
 
-container section table {
+#container section table {
     width: 100%;
 
     text-align: left;
     padding-top: 2rem;
 }
 
-container section table img {
+#container section table img {
     border-radius: 2px;
 }
 
-container section table th {
+#container section table th {
     color: var(--title-secondary);
 }
 
-container section table td {
+#container section table td {
     color: var(--text-secondary);
 }
 
-container section ul {
+#container section ul {
     list-style: square;
     margin-left: -1rem;
 }
 
-container section ul li {
+#container section ul li {
     color: var(--text-secondary);
 }
 
-container iframe {
+#container iframe {
     border: 2px solid var(--icon-secondary);
     border-radius: 20px;
 }

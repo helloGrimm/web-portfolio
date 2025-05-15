@@ -40,7 +40,7 @@ input[type='range']::-webkit-slider-thumb {
     background-color: var(--icon-secondary);
 }
 
-left_section {
+#left_section {
     width: 60%;
     height: 100%;
 
@@ -50,7 +50,7 @@ left_section {
     align-items: center;
 }
 
-volume {
+#volume {
     width: 72.5%;
     height: 50px;
 
@@ -64,16 +64,16 @@ volume {
     background-color: var(--bg-secondary);
 }
 
-range svg {
+#range svg {
     color: var(--icon-secondary);
     cursor: pointer;
 }
 
-range svg:hover {
+#range svg:hover {
     color: var(--icon-primary);
 }
 
-right_section {
+#right_section {
     width: 40%;
     height: 100%;
 
@@ -83,7 +83,7 @@ right_section {
     align-items: flex-start;
 }
 
-title {
+#title {
     font-size: 2rem;
     font-weight: bold;
 
@@ -92,7 +92,7 @@ title {
     color: var(--text-secondary);
 }
 
-artist {
+#artist {
     width: 65%;
 
     font-weight: normal;
@@ -105,7 +105,7 @@ artist {
     color: var(--text-primary);
 }
 
-music_controls {
+#music_controls {
     width: 65%;
     
     display: flex;
@@ -120,7 +120,7 @@ i {
     color: var(--icon-secondary);
 }
 
-music_controls button {
+#music_controls button {
     padding: 15px;
 
     border: none;
@@ -130,7 +130,7 @@ music_controls button {
     background-color: var(--bg-secondary);
 }
 
-duration_div {
+#duration_div {
     width: 60%;
 
     display: flex;

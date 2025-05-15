@@ -2,7 +2,7 @@ body {
     background-color: var(--bg-primary);
 }
 
-option_bar {
+#option_bar {
     width: calc(100% - 5rem);
     height: 60px;
     
@@ -19,7 +19,7 @@ option_bar {
     background-color: var(--bg-secondary);
 }
 
-option_bar button {
+#option_bar button {
     margin: 20px;
     padding: 10px;
 
@@ -34,7 +34,7 @@ option_bar button {
 	cursor: pointer;
 }
 
-option_bar h2 {
+#option_bar h2 {
     margin: 20px;
     color: var(--text-secondary);
 }

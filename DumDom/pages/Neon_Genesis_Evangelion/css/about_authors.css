@@ -1,7 +1,7 @@
 :root {
     /* Zmienne przechowujące kolor tła oraz tekstu */
-   --primary: ffffff;
-   --secondary: ed4e00;
+   --primary: #ffffff;
+   --secondary: #ed4e00;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
     background-size: cover;
 }
 
-container {
+#container {
     width: calc(100% - 5rem);
     height: 100vh;
 
@@ -24,37 +24,37 @@ container {
     margin-left: 3.5%;
 }
 
-container a {
+#container a {
     text-decoration: none;
     color: var(--text-secondary);
 }
 
-container img {
+#container img {
     border-radius: 20px;
 }
 
-container p {
+#container p {
     font-size: 28px;
     font-weight: bold;
     color: var(--secondary);
     text-transform: uppercase;
 }
 
-container span {
+#container span {
     font-size: 20px;
     font-weight: bold;
     color: var(--primary);
     text-transform: uppercase;
 }
 
-author_manga {
+#author_manga {
     padding: 10px 20px 10px 20px;
 
     background-color: var(--bg-third);
     border-radius: 20px;
 }
 
-author_anime {
+#author_anime {
     padding: 10px 20px 10px 20px;
 
     background-color: var(--bg-third);

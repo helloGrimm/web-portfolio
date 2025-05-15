@@ -3,7 +3,7 @@ body {
     background-color: var(--bg-primary);
 }
 
-container {
+#container {
     width: calc(100% - 5rem);
 
     margin-left: 5rem;
@@ -32,7 +32,7 @@ article h2 {
     position: absolute;
     top: 10vh;
 
-    color: fff;
+    color: #fff;
     font-size: 20vh;
 }
 
@@ -133,11 +133,6 @@ input[type=text] {
     background-attachment: scroll;
     background-size: cover;
     background-position: center;
-
-    width: 100%;
-    max-height: 100vh;
-    height: auto;
-
 }
 
 aside {
@@ -168,7 +163,7 @@ h4 {
     text-transform: uppercase;
 }
 
-logo {
+#logo {
     color: var(--text-secondary);
     background-color: var(--bg-secondary);
 
@@ -182,12 +177,12 @@ logo {
     align-items: center;
 }
 
-logo ul {
+#logo ul {
     list-style: none;
     text-align: center;
 }
 
-logo h2 {
+#logo h2 {
     color: var(--text-secondary);
 
     font-size: 1.5rem;
@@ -196,16 +191,16 @@ logo h2 {
     letter-spacing: 0.3ch;
 }
 
-logo svg {
+#logo svg {
     transform: rotate(0deg);
     transition: transform var(--transition-speed);
 }
 
-logo:hover svg {
+#logo:hover svg {
     transform: rotate(-180deg);
 }
 
-overview {
+#overview {
     background-color: var(--bg-secondary);
     
     width: 33%;
@@ -219,7 +214,7 @@ overview {
     align-items: center;
 }
 
-footer {
+#footer {
     background-color: var(--bg-secondary);
     border-radius: 20px;
 
@@ -232,12 +227,12 @@ footer {
     align-items: center;
 }
 
-social_media {
+#social_media {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer span {
+#footer span {
     color: red;
 }
