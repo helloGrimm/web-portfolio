@@ -14,5 +14,3 @@ git clone https://github.com/helloGrimm/web-portfolio.git
 ```
 #### 2. Navigate to a specific project
 Once you cloned the respository, navigate to the folder of the specific project you'd like to explore. Each projects is stored in its one folder within the repository.
-## 📌 Future Updates
-This repository will be regulary updated as I create new websites. 
